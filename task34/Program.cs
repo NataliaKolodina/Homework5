@@ -8,8 +8,7 @@ int length = int.Parse(Console.ReadLine());
 int[] arr = GetArray(length);
 Console.Write("[");
 PrintArray(arr);
-Console.Write("] -> ");
-Console.Write(EvenElement(arr));
+Console.Write($"] -> {EvenElement(arr)}");
 
 int[] GetArray(int size)
 {
